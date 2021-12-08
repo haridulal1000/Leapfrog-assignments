@@ -1,6 +1,6 @@
 const obj=[
     {
-        title: "Github",
+        title: "GitHub",
         source:"https://github.com/haridulal1000/Leapfrog-assignments",
         host:"https://haridulal1000.github.io/Leapfrog-assignments/"
 
