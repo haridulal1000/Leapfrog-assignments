@@ -5,6 +5,11 @@ const obj=[
         host:"https://haridulal1000.github.io/Leapfrog-assignments/"
 
     },
+    {
+    title: "CSS",
+        source:"https://github.com/haridulal1000/Leapfrog-Assignment-css",
+        host:"https://haridulal1000.github.io/Leapfrog-Assignment-css/"
+    }
   
 ]
 let table=document.getElementById("table");
