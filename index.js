@@ -9,6 +9,11 @@ const obj=[
     title: "CSS",
         source:"https://github.com/haridulal1000/Leapfrog-Assignment-css",
         host:"https://haridulal1000.github.io/Leapfrog-Assignment-css/"
+    },
+    {
+    title: "Design Assignment 1: 1A-home-search-responsive",
+        source:"https://github.com/haridulal1000/CSS-Assignment-Responsive",
+        host:"https://haridulal1000.github.io/CSS-Assignment-Responsive/"
     }
   
 ]
