@@ -15,6 +15,11 @@ const obj=[
         source:"https://github.com/haridulal1000/CSS-Assignment-Responsive",
         host:"https://haridulal1000.github.io/CSS-Assignment-Responsive/"
     }
+    {
+    title: "Design Final Project",
+        source:"https://github.com/haridulal1000/Final-Project",
+        host:"https://haridulal1000.github.io/Final-Project/"
+    }
   
 ]
 let table=document.getElementById("table");
