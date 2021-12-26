@@ -27,6 +27,12 @@ const obj=[
         source:"https://github.com/haridulal1000/Image-Carousel-1",
         host:"https://haridulal1000.github.io/Image-Carousel-1/"
     }
+    ,
+    {
+    title: "Image-Carousel-2",
+        source:"https://github.com/haridulal1000/Image-carousel-2",
+        host:"https://haridulal1000.github.io/Image-carousel-2/"
+    }
   
 ]
 let table=document.getElementById("table");
