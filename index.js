@@ -33,6 +33,12 @@ const obj=[
         source:"https://github.com/haridulal1000/Image-carousel-2",
         host:"https://haridulal1000.github.io/Image-carousel-2/"
     }
+    ,
+    {
+    title: "Ant-Smasher",
+        source:"https://github.com/haridulal1000/Ant-smasher",
+        host:"https://haridulal1000.github.io/Ant-smasher/"
+    }
   
 ]
 let table=document.getElementById("table");
