@@ -36,8 +36,8 @@ const obj=[
     ,
     {
     title: "Ant-Smasher",
-        source:"https://github.com/haridulal1000/Ant-smasher",
-        host:"https://haridulal1000.github.io/Ant-smasher/"
+        source:"https://github.com/haridulal1000/AntSmasher",
+        host:"https://haridulal1000.github.io/AntSmasher/"
     }
     ,
     {
