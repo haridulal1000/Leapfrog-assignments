@@ -57,6 +57,12 @@ const obj=[
         source:"https://github.com/haridulal1000/Car-Lane-with-Bullet",
         host:"https://haridulal1000.github.io/Car-Lane-with-Bullet/"
     }
+     ,
+    {
+    title: "Flappy Bird",
+        source:"https://github.com/haridulal1000/Flappy-Bird",
+        host:"https://haridulal1000.github.io/Flappy-Bird/"
+    }
   
 ]
 let table=document.getElementById("table");
