@@ -62,7 +62,7 @@ for (let i = 0; i < obj.length; i++) {
     str += `<tr>
      <td>${obj[i].title}</td>
      <td><a href=${obj[i].source} target="_blank">Link to Source</a></td>
-     <td><a href=${obj[i].host} target="_blank">Link to page</a></td>
+     <td><a href=${obj[i].host} target="_blank">Link to Page</a></td>
      </tr>`;
 
 }
