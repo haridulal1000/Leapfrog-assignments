@@ -57,3 +57,6 @@ table {
 a {
     text-decoration: none;
 }
+tr:nth-child(even) {
+    background-color: rgb(231, 233, 235);
+}
