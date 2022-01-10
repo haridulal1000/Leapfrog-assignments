@@ -53,6 +53,12 @@ const obj = [{
         title: "Flappy Bird",
         source: "https://github.com/haridulal1000/Flappy-Bird",
         host: "https://haridulal1000.github.io/Flappy-Bird/"
+    },
+             
+    {
+        title: "JS-Final",
+        source: "https://github.com/haridulal1000/JS-Final",
+        host: "https://haridulal1000.github.io/JS-Final/"
     }
 
 ]
