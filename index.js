@@ -1,75 +1,65 @@
-const obj = [{
-        title: "GitHub",
-        source: "https://github.com/haridulal1000/Leapfrog-assignments",
-        host: "https://haridulal1000.github.io/Leapfrog-assignments/"
+const obj = [
+  {
+    title: "Sample Responsive Website",
+    source: "https://github.com/haridulal1000/Final-Project",
+    host: "https://haridulal1000.github.io/Final-Project/",
+  },
+  {
+    title: "Online Image Edit",
+    source: "https://github.com/haridulal1000/JS-Final",
+    host: "https://haridulal1000.github.io/JS-Final/",
+  },
+  {
+    title: "Quiz Mania Using React Js",
+    source: "https://github.com/haridulal1000/quiz",
+    host: "https://quiz-mania1000.herokuapp.com",
+  },
+  {
+    title: "Hand Gestures Recognition",
+    source: "https://github.com/haridulal1000/Hand-Gesture-Recognition",
+    host: "#",
+  },
+  {
+    title: "Face Recognition using One-shot Learning",
+    source: "https://github.com/haridulal1000/Face-Recognition-using-One-Shot-Learning",
+    host: "#",
+  },
 
-    },
-    {
-        title: "Design Assignment 1",
-        source: "https://github.com/haridulal1000/Leapfrog-Assignment-css",
-        host: "https://haridulal1000.github.io/Leapfrog-Assignment-css/"
-    },
-    {
-        title: "Design Assignment 1: Responsive",
-        source: "https://github.com/haridulal1000/CSS-Assignment-Responsive",
-        host: "https://haridulal1000.github.io/CSS-Assignment-Responsive/"
-    },
-    {
-        title: "Design Final Project",
-        source: "https://github.com/haridulal1000/Final-Project",
-        host: "https://haridulal1000.github.io/Final-Project/"
-    },
-    {
-        title: "Image-Carousel-1",
-        source: "https://github.com/haridulal1000/Image-Carousel-1",
-        host: "https://haridulal1000.github.io/Image-Carousel-1/"
-    },
-    {
-        title: "Image-Carousel-2",
-        source: "https://github.com/haridulal1000/Image-carousel-2",
-        host: "https://haridulal1000.github.io/Image-carousel-2/"
-    },
-    {
-        title: "Ant-Smasher",
-        source: "https://github.com/haridulal1000/AntSmasher",
-        host: "https://haridulal1000.github.io/AntSmasher/"
-    },
-    {
-        title: "Box-Collision",
-        source: "https://github.com/haridulal1000/Box-Collision",
-        host: "https://haridulal1000.github.io/Box-Collision/"
-    },
-    {
-        title: "Car-Lane",
-        source: "https://github.com/haridulal1000/Car-Lane",
-        host: "https://haridulal1000.github.io/Car-Lane/"
-    },
-    {
-        title: "Car-Lane-with-Bullet",
-        source: "https://github.com/haridulal1000/Car-Lane-with-Bullet",
-        host: "https://haridulal1000.github.io/Car-Lane-with-Bullet/"
-    },
-    {
-        title: "Flappy Bird",
-        source: "https://github.com/haridulal1000/Flappy-Bird",
-        host: "https://haridulal1000.github.io/Flappy-Bird/"
-    },
-             
-    {
-        title: "JS-Final",
-        source: "https://github.com/haridulal1000/JS-Final",
-        host: "https://haridulal1000.github.io/JS-Final/"
-    }
+  {
+    title: "Car-Lane",
+    source: "https://github.com/haridulal1000/Car-Lane",
+    host: "https://haridulal1000.github.io/Car-Lane/",
+  },
+  {
+    title: "Car-Lane-with-Bullet",
+    source: "https://github.com/haridulal1000/Car-Lane-with-Bullet",
+    host: "https://haridulal1000.github.io/Car-Lane-with-Bullet/",
+  },
+  {
+    title: "Flappy Bird",
+    source: "https://github.com/haridulal1000/Flappy-Bird",
+    host: "https://haridulal1000.github.io/Flappy-Bird/",
+  },
 
-]
+  
+  {
+    title: "Ant-Smasher",
+    source: "https://github.com/haridulal1000/AntSmasher",
+    host: "https://haridulal1000.github.io/AntSmasher/",
+  },
+  {
+    title: "Box-Collision",
+    source: "https://github.com/haridulal1000/Box-Collision",
+    host: "https://haridulal1000.github.io/Box-Collision/",
+  },
+];
 let table = document.getElementById("table");
 let str = table.innerHTML;
 for (let i = 0; i < obj.length; i++) {
-    str += `<tr>
+  str += `<tr>
      <td>${obj[i].title}</td>
      <td><a href=${obj[i].source} target="_blank">Link to Source</a></td>
-     <td><a href=${obj[i].host} target="_blank">Link to Page</a></td>
+     <td><a href=${obj[i].host} ${obj[i].host!=='#'?'target="_blank"':''}>${obj[i].host!=='#'?'Link to Page':'Not Available'}</a></td>
      </tr>`;
-
 }
 table.innerHTML = str;
