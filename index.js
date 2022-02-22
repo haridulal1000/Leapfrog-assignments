@@ -15,6 +15,16 @@ const obj = [
     host: "https://quiz-mania1000.herokuapp.com",
   },
   {
+    title: "Attedance MS: Front-end",
+    source: "https://github.com/haridulal1000/Attendance-ms-frontend",
+    host: "#",
+  },
+  {
+    title: "Attedance MS: Back-end",
+    source: "https://github.com/haridulal1000/Attendance-ms-backend",
+    host: "#",
+  },
+  {
     title: "Hand Gestures Recognition",
     source: "https://github.com/haridulal1000/Hand-Gesture-Recognition",
     host: "#",
