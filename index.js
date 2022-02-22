@@ -15,12 +15,12 @@ const obj = [
     host: "https://quiz-mania1000.herokuapp.com",
   },
   {
-    title: "Attedance MS: Front-end",
+    title: "Attedance-MS: Using MERN Stack: Front-end",
     source: "https://github.com/haridulal1000/Attendance-ms-frontend",
     host: "#",
   },
   {
-    title: "Attedance MS: Back-end",
+    title: "Attedance-MS Using MERN Stack: Back-end",
     source: "https://github.com/haridulal1000/Attendance-ms-backend",
     host: "#",
   },
