@@ -6,8 +6,8 @@ const obj = [
   },
   {
     title: "Online Image Edit",
-    source: "https://github.com/haridulal1000/JS-Final",
-    host: "https://haridulal1000.github.io/JS-Final/",
+    source: "https://github.com/haridulal1000/Image-edit",
+    host: "https://haridulal1000.github.io/Image-edit/",
   },
   {
     title: "Quiz Mania Using React Js",
