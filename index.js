@@ -1,4 +1,4 @@
-//List of Projects
+//List of Personal Projects
 const obj = [
   {
     title: "Sample Responsive Website",
